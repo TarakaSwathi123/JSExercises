@@ -5,5 +5,16 @@ function errorFunction() {
 }
 
 function errorCaller() {
-  errorFunction();
+  
+    try {
+      errorFunction();
+    }
+
+
+  catch(err){
+    console.log("Random Error Occurred .It's Handled");
+  }
+  
 }
+
+
