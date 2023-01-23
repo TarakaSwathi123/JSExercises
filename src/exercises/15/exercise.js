@@ -1,13 +1,13 @@
 // Convert the below functions into arrow functions.
 
-const greetings = function () {
-  return "Hello World";
+
+greetings=()=> "Hello World";
+
+var isEven = age => {
+  
+  (age%2)==0 ? console.log('Even') : console.log('Odd');
 };
 
-const isEven = function (num) {
-  if (num % 2 == 0) {
-    return true;
-  } else {
-    return false;
-  }
-};
+isEven(8);
+
+
