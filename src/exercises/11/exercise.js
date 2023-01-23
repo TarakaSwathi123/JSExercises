@@ -2,4 +2,12 @@
 // - Use Array methods
 // - Do not use loops
 
-function sumOfArray(inputArray) {}
+function finalSum(total,ele){
+    return total+ele;
+}
+function sumOfArray(inputArray) {
+    let totalSum = inputArray.reduce(finalSum);
+    console.log(totalSum);
+}
+
+
