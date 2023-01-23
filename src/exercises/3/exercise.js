@@ -3,8 +3,11 @@
 
 function checkIfArray(input) {
   let isInputAnArray = false;
+  
+  
+  isInputAnArray=Array.isArray(input);
 
-  //...
+  //To chcck whether the given input is Array or not ,I used isArray method
 
   if (isInputAnArray) {
     console.log("Given input is an Array");
