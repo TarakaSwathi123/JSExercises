@@ -3,8 +3,19 @@
 const employee = {
   firstName: "Ravi",
   lastName: "Teja",
-  age: 29,
+  age: 16,
   id: 1122,
-  getFullName: function () {},
-  checkVoteEligiblity: function () {},
+  getFullName: function () {
+    return this.firstName + " " + this.lastName;
+  },
+  checkVoteEligiblity: function () {
+    if(this.age >=18){
+      return "Eligible to vote";
+    }
+    else{
+      return "Not Eligible to Vote";
+    }
+	
+  }
 };
+
