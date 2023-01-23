@@ -4,6 +4,8 @@
 
 function greeting(firstName, lastName) {
   let welcomeGreeting;
+  welcomeGreeting=`Welcome ${firstName},${lastName}`;
 
   console.log(welcomeGreeting);
 }
+//String Template Literals allows variables,expressions in strings,allows multiline strings .
