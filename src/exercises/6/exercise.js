@@ -3,5 +3,9 @@
 
 function findTheLength(inputArray) {
   let lengthOfArray;
-  console.log(`Length of the given input array is ${lengthOfArray}`);
+  var isInputArray=Array.isArray(inputArray);
+  lengthOfArray=inputArray.length;
+  if(isInputArray){
+    console.log(`Length of the given input array is ${lengthOfArray}`);
+  }
 }
