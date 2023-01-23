@@ -15,4 +15,10 @@
 		}
 	]
 */
-function findVoteEligibleCandidates(populationList) {}
+function findVoteEligibleCandidates(populationList) {
+	//_.map(populationList, p => p.name);
+	let finalList=populationList.filter(p => p.age >= 18);
+	var names=finalList.map(p => p.name);
+	console.log(names);
+}
+
