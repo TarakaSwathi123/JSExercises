@@ -5,9 +5,16 @@
 function randomCalculator() {
   let x = 10,
     y = 0;
-  x = x * 10 + 1 - (2 / 2) * 3;
+
+  x = x * 10 + 1 - (2 / 2) *3;
+  debugger;
   y = x - 1 + 3 * 10 - 2;
+  debugger;
   x = x * 2 - (1 / 3) * 3;
+  debugger;
   x = x + 10 - 2 - 3 * 2;
+  debugger;
   console.log(x);
 }
+randomCalculator();
+//watch display current value in of the variables where we set a breakpoint,live expression values can be seen
