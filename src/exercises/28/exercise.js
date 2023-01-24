@@ -11,6 +11,12 @@ function learnEventLoops() {
   setTimeout(function print() {
     console.log("75% Learning done!");
   }, 1); // 1 millisec
+  setTimeout(function print() {
   console.log("Learning completed!!");
+  },0);
 }
-main();
+learnEventLoops();
+
+//timevalue in settimeout is the delay after wchich the message is queued
+//setTimout adds messages to queue it follows fifo .so I gave some delay for final print statement roo so that it prints in order
+
