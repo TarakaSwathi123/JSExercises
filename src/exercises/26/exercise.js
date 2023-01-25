@@ -7,4 +7,23 @@
 
 const counter = (function () {
   //Your code goes here.
+  let count1=0;
+  return {
+    increment(count){
+      count1++;
+      return count1;
+    },
+    decrement(count){
+      count1--;
+      return count1;
+    },
+    value(count){
+      count1;
+      return count1;
+    },
+     
+  }
+  
 })();
+
+//console.log(counter.decrement())
