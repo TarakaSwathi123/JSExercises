@@ -16,3 +16,13 @@
 // 	id : 1122,
 // 	age : 29
 // }
+
+const user ={
+    name:"Ravi",
+    id:1122,
+    age:29
+}
+let {name,...otherProperties}=user;
+console.log(name,otherProperties);
+
+
